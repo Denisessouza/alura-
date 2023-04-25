@@ -1,0 +1,35 @@
+O código de Roberta é:
+
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 30;
+
+    while(contador <= 40) {
+
+        if( contador == 33 ) {
+        contador = contador + 1;
+        }
+        else if(contador == 37) {    
+            contador = contador + 1;
+        }
+        else {
+        mostra(contador);
+        contador = contador + 1; 
+        }
+      }
+
+    mostra("FIM");
+
+</script>
+
+
+//código feito pulando os numeros 33 e 37 (exercícios extra) - Diz: se o número for igual (==) a 33 você soma a ele + 1 e depois imprime, mesma coisa no 37.

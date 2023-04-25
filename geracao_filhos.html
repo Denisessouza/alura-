@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha(){
+
+		document.write ("<br><br>");
+	}
+
+	function mostra (frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var idadeFilhos =28;
+	var anoAtual = 2023;
+	var quantidadeGeracoes = (anoAtual-1500)/idadeFilhos;
+
+	mostra ("A quantidade de gerações desde o descobrimento são " + Math.round(quantidadeGeracoes));
+
+</script>
+
